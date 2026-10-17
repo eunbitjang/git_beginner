@@ -1,0 +1,2 @@
+stream|codec_name=hevc|width=1920|height=1080
+format|size=3075988|bit_rate=3060050
