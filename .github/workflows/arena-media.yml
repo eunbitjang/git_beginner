@@ -3,7 +3,7 @@ name: Fetch Arena media
 on:
   push:
     branches: [claude/arena-media]
-    paths: [".github/workflows/arena-media.yml", "fetch_media.py", "ig_list.json"]
+    paths: [".github/workflows/arena-media.yml", "fetch_media.py", "ig_list.json", "urls.json"]
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
         with:
           deno-version: v2.x
       - name: Fetch and encode media
-        run: python fetch_ig.py
+        run: python fetch_urls.py
       - name: Commit media
         run: |
           git config user.name "github-actions[bot]"
