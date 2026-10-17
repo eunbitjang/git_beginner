@@ -3,7 +3,7 @@ name: Fetch Arena media
 on:
   push:
     branches: [claude/arena-media]
-    paths: [".github/workflows/arena-media.yml", "fetch_media.py", "ig_list.json", "urls.json"]
+    paths: [".github/workflows/arena-media.yml", "fetch_media.py", "ig_list.json", "urls.json", "fetch_sites.py"]
   workflow_dispatch:
 
 permissions:
@@ -18,12 +18,12 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q -U "yt-dlp[default]" requests
+          pip install -q -U requests pillow
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
       - name: Fetch and encode media
-        run: python fetch_urls.py
+        run: python fetch_sites.py
       - name: Commit media
         run: |
           git config user.name "github-actions[bot]"
