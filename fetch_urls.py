@@ -12,9 +12,12 @@ for item in json.load(open("urls.json")):
             for chunk in r.iter_content(1 << 16):
                 f.write(chunk)
     out = item["out"]
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-vf", "scale=1920:-2", "-c:v", "libx264",
-                    "-preset", "slow", "-crf", "26", "-pix_fmt", "yuv420p", "-an", "-movflags", "+faststart",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-c:v", "libx264",
+                    "-preset", "veryslow", "-tune", "film", "-crf", "17", "-maxrate", "12M", "-bufsize", "24M", "-pix_fmt", "yuv420p", "-an", "-movflags", "+faststart",
                     f"media/{out}.mp4"], check=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1", "-i", raw, "-frames:v", "1",
-                    "-vf", "scale=1280:-2", "-q:v", "4", f"media/{out}.jpg"], check=True)
+                    "-q:v", "2", f"media/{out}.jpg"], check=True)
     print("ok", out, flush=True)
+    probe = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=bit_rate,size:stream=width,height,codec_name",
+                            "-of", "compact", raw], capture_output=True, text=True).stdout
+    open(f"media/{out}_source.txt", "w").write(probe)
