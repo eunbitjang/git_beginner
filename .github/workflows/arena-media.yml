@@ -23,7 +23,7 @@ jobs:
         with:
           deno-version: v2.x
       - name: Fetch and encode media
-        run: python fetch_img.py
+        run: python fetch_urls.py
       - name: Commit media
         run: |
           git config user.name "github-actions[bot]"
