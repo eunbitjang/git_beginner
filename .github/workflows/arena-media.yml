@@ -1,0 +1,30 @@
+name: Fetch Arena media
+
+on:
+  push:
+    branches: [claude/arena-media]
+    paths: [".github/workflows/arena-media.yml", "fetch_media.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q yt-dlp requests
+      - name: Fetch and encode media
+        run: python fetch_media.py
+      - name: Commit media
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media
+          git commit -m "Add fetched Arena media" || echo "nothing to commit"
+          git push
