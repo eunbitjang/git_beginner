@@ -18,7 +18,10 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q yt-dlp requests
+          pip install -q -U "yt-dlp[default]" requests
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
       - name: Fetch and encode media
         run: python fetch_media.py
       - name: Commit media

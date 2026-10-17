@@ -2,6 +2,7 @@
 import json
 import os
 import subprocess
+import time
 import traceback
 
 import requests
@@ -48,21 +49,32 @@ def poster(src, dst):
 
 
 # Hero
-try:
+if os.path.exists(f"{OUT}/hero.mp4"):
+    manifest["hero"] = {"file": "hero.mp4", "poster": "hero.jpg"}
+else:
+  try:
     download(HERO_URL, "/tmp/hero_src.mp4")
     size = encode("/tmp/hero_src.mp4", f"{OUT}/hero.mp4", "scale=1920:-2", 26)
     poster("/tmp/hero_src.mp4", f"{OUT}/hero.jpg")
     manifest["hero"] = {"file": "hero.mp4", "poster": "hero.jpg", "bytes": size}
     log(f"hero ok {size} bytes")
-except Exception:
+  except Exception:
     log("hero failed: " + traceback.format_exc(limit=1))
 
 # Instagram (public web profile endpoint; often blocked for datacenter IPs)
 try:
-    r = requests.get(
-        f"https://www.instagram.com/api/v1/users/web_profile_info/?username={IG_USER}",
-        headers={"User-Agent": UA, "x-ig-app-id": "936619743392459"}, timeout=30)
-    log(f"instagram profile status {r.status_code}")
+    r = None
+    for host, ua in (("i.instagram.com", "Instagram 309.0.0.40.113 Android (31/12; 420dpi; 1080x2205; samsung; SM-G991B; o1s; exynos2100; en_US; 541635890)"),
+                     ("www.instagram.com", UA)):
+        for attempt in range(3):
+            r = requests.get(f"https://{host}/api/v1/users/web_profile_info/?username={IG_USER}",
+                             headers={"User-Agent": ua, "x-ig-app-id": "936619743392459", "Accept": "*/*"}, timeout=30)
+            log(f"instagram {host} attempt {attempt} status {r.status_code}")
+            if r.status_code == 200:
+                break
+            time.sleep(20)
+        if r.status_code == 200:
+            break
     r.raise_for_status()
     edges = r.json()["data"]["user"]["edge_owner_to_timeline_media"]["edges"]
     n = 0
@@ -106,11 +118,27 @@ for tab, limit in (("shorts", 8), ("videos", 4)):
         for ent in entries:
             vid = ent["id"]
             raw = f"/tmp/yt_{vid}.mp4"
-            dl = subprocess.run(["yt-dlp", "-f", "bv*[height<=1080][ext=mp4]/bv*[height<=1080]/b", "--remux-video", "mp4",
-                                 "-o", raw, f"https://www.youtube.com/watch?v={vid}"],
-                                capture_output=True, text=True, timeout=300)
-            if dl.returncode != 0 or not os.path.exists(raw):
-                log(f"yt {vid} download failed: {dl.stderr[-300:]}")
+            entry = {"id": vid, "kind": tab, "url": f"https://www.youtube.com/watch?v={vid}",
+                     "title": ent.get("title"), "views": ent.get("view_count"), "duration": ent.get("duration")}
+            for name in ("maxresdefault", "hq720", "oardefault", "hqdefault"):
+                tr = requests.get(f"https://i.ytimg.com/vi/{vid}/{name}.jpg", headers={"User-Agent": UA}, timeout=30)
+                if tr.status_code == 200 and len(tr.content) > 5000:
+                    open(f"{OUT}/ytthumb_{vid}.jpg", "wb").write(tr.content)
+                    entry["thumb"] = f"ytthumb_{vid}.jpg"
+                    break
+            manifest.setdefault("youtube_meta", []).append(entry)
+            ok = False
+            for client in ("tv_simply", "tv", "mweb", "web_safari", "ios", "android_vr"):
+                dl = subprocess.run(["yt-dlp", "--extractor-args", f"youtube:player_client={client}",
+                                     "-f", "bv*[height<=1080][ext=mp4]/bv*[height<=1080]/b", "--remux-video", "mp4",
+                                     "-o", raw, f"https://www.youtube.com/watch?v={vid}"],
+                                    capture_output=True, text=True, timeout=300)
+                if dl.returncode == 0 and os.path.exists(raw):
+                    log(f"yt {vid} downloaded via {client}")
+                    ok = True
+                    break
+                log(f"yt {vid} client {client} failed: {dl.stderr.strip().splitlines()[-1][:160] if dl.stderr.strip() else ''}")
+            if not ok:
                 continue
             if tab == "shorts":
                 scale, secs, start = "scale=540:960:force_original_aspect_ratio=increase,crop=540:960", 15, None
