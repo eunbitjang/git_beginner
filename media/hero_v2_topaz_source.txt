@@ -1,0 +1,2 @@
+stream|codec_name=hevc|width=3840|height=2160|r_frame_rate=24/1
+format|duration=8.041667|size=74103831|bit_rate=73719870
