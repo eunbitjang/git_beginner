@@ -1,0 +1,505 @@
+{
+ "agmatch": {
+  "pages": {
+   "https://www.agmatch.com/": 231328,
+   "https://www.agmatch.com/benefits/": 214779,
+   "https://www.agmatch.com/become-a-member/": 252531
+  },
+  "images": [
+   {
+    "src": "https://www.agmatch.co.nz/wp-content/uploads/2020/09/Farm-Hero1.jpg",
+    "file": "media/agmatch/2020_09_Farm-Hero1.jpg",
+    "w": 1800,
+    "h": 938,
+    "bytes": 242359
+   },
+   {
+    "src": "https://www.agmatch.com/wp-content/uploads/2020/09/FULLlogo-R-e1590951107176.png",
+    "file": "media/agmatch/2020_09_FULLlogo-R-e1590951107176.png",
+    "w": 800,
+    "h": 179,
+    "bytes": 37482
+   },
+   {
+    "src": "https://www.agmatch.com/wp-content/uploads/2020/09/Farm-Hero1.jpg",
+    "file": "media/agmatch/2020_09_Farm-Hero1.jpg",
+    "w": 1800,
+    "h": 938,
+    "bytes": 242359
+   },
+   {
+    "src": "https://www.agmatch.com/wp-content/uploads/2020/09/cropped-Agmatch-Icon-Logo-180x180.png",
+    "file": "media/agmatch/2020_09_cropped-Agmatch-Icon-Logo-180x180.png",
+    "w": 180,
+    "h": 180,
+    "bytes": 11363
+   },
+   {
+    "src": "https://www.agmatch.com/wp-content/uploads/2020/09/cropped-Agmatch-Icon-Logo-192x192.png",
+    "file": "media/agmatch/2020_09_cropped-Agmatch-Icon-Logo-192x192.png",
+    "w": 192,
+    "h": 192,
+    "bytes": 16001
+   },
+   {
+    "src": "https://www.agmatch.com/wp-content/uploads/2020/09/cropped-Agmatch-Icon-Logo-270x270.png",
+    "file": "media/agmatch/2020_09_cropped-Agmatch-Icon-Logo-270x270.png",
+    "w": 270,
+    "h": 270,
+    "bytes": 28448
+   },
+   {
+    "src": "https://www.agmatch.com/wp-content/uploads/2020/09/cropped-Agmatch-Icon-Logo.png",
+    "file": "media/agmatch/2020_09_cropped-Agmatch-Icon-Logo.png",
+    "w": 512,
+    "h": 512,
+    "bytes": 67343
+   },
+   {
+    "src": "https://www.agmatch.com/wp-content/uploads/2021/03/AGWOOL-LOGO-dark-e1529991446329.png",
+    "file": "media/agmatch/2021_03_AGWOOL-LOGO-dark-e1529991446329.png",
+    "w": 501,
+    "h": 145,
+    "bytes": 21426
+   }
+  ]
+ },
+ "agwool": {
+  "pages": {
+   "https://agwoolnz.com/": 210218,
+   "https://agwoolnz.com/about-agwool/": 217951,
+   "https://agwoolnz.com/shop/": 171691,
+   "https://agwoolnz.com/shop/page/2/": 169817,
+   "https://agwoolnz.com/news-media/": 278831
+  },
+  "images": [
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/AGWOOL-LOGO-dark-e1529991446329.png",
+    "file": "media/agwool/2020_09_AGWOOL-LOGO-dark-e1529991446329.png",
+    "w": 501,
+    "h": 145,
+    "bytes": 36836
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/FARMERSwkly-1-1024x993-1-400x250.jpg",
+    "file": "media/agwool/2020_09_FARMERSwkly-1-1024x993-1-400x250.jpg",
+    "w": 400,
+    "h": 250,
+    "bytes": 31960
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/FARMERSwkly-1-1024x993-1.jpg",
+    "file": "media/agwool/2020_09_FARMERSwkly-1-1024x993-1.jpg",
+    "w": 1024,
+    "h": 993,
+    "bytes": 235720
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/FOOTER-480x115.png",
+    "file": "media/agwool/2020_09_FOOTER-480x115.png",
+    "w": 480,
+    "h": 115,
+    "bytes": 44375
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/FOOTER.png",
+    "file": "media/agwool/2020_09_FOOTER.png",
+    "w": 601,
+    "h": 144,
+    "bytes": 34284
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/Kennysmile-400x250.jpg",
+    "file": "media/agwool/2020_09_Kennysmile-400x250.jpg",
+    "w": 400,
+    "h": 250,
+    "bytes": 27646
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/Kennysmile.jpg",
+    "file": "media/agwool/2020_09_Kennysmile.jpg",
+    "w": 640,
+    "h": 480,
+    "bytes": 81237
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/Slider-Image-2.jpg",
+    "file": "media/agwool/2020_09_Slider-Image-2.jpg",
+    "w": 1800,
+    "h": 1198,
+    "bytes": 295216
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/eight_col_Woolen_Jerseys1-1-400x250.jpg",
+    "file": "media/agwool/2020_09_eight_col_Woolen_Jerseys1-1-400x250.jpg",
+    "w": 400,
+    "h": 250,
+    "bytes": 19596
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/eight_col_Woolen_Jerseys1-1.jpg",
+    "file": "media/agwool/2020_09_eight_col_Woolen_Jerseys1-1.jpg",
+    "w": 720,
+    "h": 480,
+    "bytes": 72336
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/four_col_jersy_1web-300x300.jpg",
+    "file": "media/agwool/2020_09_four_col_jersy_1web-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 21729
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/four_col_jersy_1web-400x250.jpg",
+    "file": "media/agwool/2020_09_four_col_jersy_1web-400x250.jpg",
+    "w": 400,
+    "h": 250,
+    "bytes": 26517
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/four_col_jersy_1web.jpg",
+    "file": "media/agwool/2020_09_four_col_jersy_1web.jpg",
+    "w": 576,
+    "h": 360,
+    "bytes": 57149
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/spinning-a-yarn-400x250.jpg",
+    "file": "media/agwool/2020_09_spinning-a-yarn-400x250.jpg",
+    "w": 400,
+    "h": 250,
+    "bytes": 36847
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/09/spinning-a-yarn.jpg",
+    "file": "media/agwool/2020_09_spinning-a-yarn.jpg",
+    "w": 755,
+    "h": 1000,
+    "bytes": 253527
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/10/Windbreather-1-300x300.jpg",
+    "file": "media/agwool/2020_10_Windbreather-1-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 16403
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2020/10/Windbreather-1.jpg",
+    "file": "media/agwool/2020_10_Windbreather-1.jpg",
+    "w": 1800,
+    "h": 2700,
+    "bytes": 1092866
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2021/02/Agwool-Jersery-No-Pocket-300x300.jpg",
+    "file": "media/agwool/2021_02_Agwool-Jersery-No-Pocket-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 14405
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2021/02/Agwool-Jersery-No-Pocket.jpg",
+    "file": "media/agwool/2021_02_Agwool-Jersery-No-Pocket.jpg",
+    "w": 683,
+    "h": 800,
+    "bytes": 110006
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2021/02/Agwool-carpet-image-400x250.jpg",
+    "file": "media/agwool/2021_02_Agwool-carpet-image-400x250.jpg",
+    "w": 400,
+    "h": 250,
+    "bytes": 19015
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2021/02/Agwool-carpet-image.jpg",
+    "file": "media/agwool/2021_02_Agwool-carpet-image.jpg",
+    "w": 1216,
+    "h": 736,
+    "bytes": 238218
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/05/Skull-cap-300x300.jpg",
+    "file": "media/agwool/2022_05_Skull-cap-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 30051
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/05/Skull-cap.jpg",
+    "file": "media/agwool/2022_05_Skull-cap.jpg",
+    "w": 1800,
+    "h": 1444,
+    "bytes": 861558
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/05/Unlined-jersey-1-300x300.jpg",
+    "file": "media/agwool/2022_05_Unlined-jersey-1-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 30309
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/05/Unlined-jersey-1.jpg",
+    "file": "media/agwool/2022_05_Unlined-jersey-1.jpg",
+    "w": 1800,
+    "h": 2700,
+    "bytes": 1207549
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/05/Unlined-jersey-2-300x300.jpg",
+    "file": "media/agwool/2022_05_Unlined-jersey-2-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 22318
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/05/Unlined-jersey-2.jpg",
+    "file": "media/agwool/2022_05_Unlined-jersey-2.jpg",
+    "w": 1800,
+    "h": 2914,
+    "bytes": 1373573
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/06/Ken-Pic-100x100.jpg",
+    "file": "media/agwool/2022_06_Ken-Pic-100x100.jpg",
+    "w": 100,
+    "h": 100,
+    "bytes": 3541
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/06/Ken-Pic.jpg",
+    "file": "media/agwool/2022_06_Ken-Pic.jpg",
+    "w": 291,
+    "h": 295,
+    "bytes": 17321
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/06/Ric-Pic-100x100.jpg",
+    "file": "media/agwool/2022_06_Ric-Pic-100x100.jpg",
+    "w": 100,
+    "h": 100,
+    "bytes": 3700
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/06/Ric-Pic.jpg",
+    "file": "media/agwool/2022_06_Ric-Pic.jpg",
+    "w": 291,
+    "h": 295,
+    "bytes": 17549
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/11/2-300x300.png",
+    "file": "media/agwool/2022_11_2-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 12572
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2022/11/2.png",
+    "file": "media/agwool/2022_11_2.png",
+    "w": 1587,
+    "h": 2245,
+    "bytes": 458765
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/01/Agwool-08-Charcoal-Crop-300x300.png",
+    "file": "media/agwool/2023_01_Agwool-08-Charcoal-Crop-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 156462
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/01/Agwool-08-Charcoal-Crop.png",
+    "file": "media/agwool/2023_01_Agwool-08-Charcoal-Crop.png",
+    "w": 806,
+    "h": 1080,
+    "bytes": 1308313
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/05/Underlay-1-300x300.jpg",
+    "file": "media/agwool/2023_05_Underlay-1-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 25127
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/05/Underlay-1.jpg",
+    "file": "media/agwool/2023_05_Underlay-1.jpg",
+    "w": 1800,
+    "h": 2400,
+    "bytes": 767077
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Beanies-300x300.jpeg",
+    "file": "media/agwool/2023_07_Beanies-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 21523
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Beanies.jpeg",
+    "file": "media/agwool/2023_07_Beanies.jpg",
+    "w": 1800,
+    "h": 2618,
+    "bytes": 741375
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Carpet-Slate-Bedrock-Earth-300x300.jpg",
+    "file": "media/agwool/2023_07_Carpet-Slate-Bedrock-Earth-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 34393
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Carpet-Slate-Bedrock-Earth.jpg",
+    "file": "media/agwool/2023_07_Carpet-Slate-Bedrock-Earth.jpg",
+    "w": 1800,
+    "h": 1200,
+    "bytes": 560413
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Go-To-Town-2-scaled-e1726613389467-300x300.jpeg",
+    "file": "media/agwool/2023_07_Go-To-Town-2-scaled-e1726613389467-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 26332
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Go-To-Town-2-scaled-e1726613389467.jpeg",
+    "file": "media/agwool/2023_07_Go-To-Town-2-scaled-e1726613389467.jpg",
+    "w": 1706,
+    "h": 1715,
+    "bytes": 497062
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Musterer-3-scaled-e1726613735660-300x300.jpeg",
+    "file": "media/agwool/2023_07_Musterer-3-scaled-e1726613735660-300x300.jpg",
+    "w": 300,
+    "h": 300,
+    "bytes": 25435
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/07/Musterer-3-scaled-e1726613735660.jpeg",
+    "file": "media/agwool/2023_07_Musterer-3-scaled-e1726613735660.jpg",
+    "w": 1706,
+    "h": 2009,
+    "bytes": 576350
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/10/Gemini_Generated_Image_j0uus8j0uus8j0uu-300x300.png",
+    "file": "media/agwool/2023_10_Gemini_Generated_Image_j0uus8j0uus8j0uu-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 117285
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2023/10/Gemini_Generated_Image_j0uus8j0uus8j0uu.png",
+    "file": "media/agwool/2023_10_Gemini_Generated_Image_j0uus8j0uus8j0uu.png",
+    "w": 1200,
+    "h": 896,
+    "bytes": 1374288
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/05/Gemini_Generated_Image_wt75xewt75xewt75-Copy-300x300.png",
+    "file": "media/agwool/2024_05_Gemini_Generated_Image_wt75xewt75xewt75-Copy-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 134117
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/05/Gemini_Generated_Image_wt75xewt75xewt75-Copy.png",
+    "file": "media/agwool/2024_05_Gemini_Generated_Image_wt75xewt75xewt75-Copy.png",
+    "w": 502,
+    "h": 627,
+    "bytes": 427712
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Agwool-08-Black-300x300.png",
+    "file": "media/agwool/2024_07_Agwool-08-Black-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 131246
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Agwool-08-Black.png",
+    "file": "media/agwool/2024_07_Agwool-08-Black.png",
+    "w": 632,
+    "h": 842,
+    "bytes": 689054
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_1smhnw1smhnw1smh-300x300.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_1smhnw1smhnw1smh-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 137358
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_1smhnw1smhnw1smh.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_1smhnw1smhnw1smh.png",
+    "w": 843,
+    "h": 1080,
+    "bytes": 1105082
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_20wc5120wc5120wc-300x300.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_20wc5120wc5120wc-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 165817
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_20wc5120wc5120wc.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_20wc5120wc5120wc.png",
+    "w": 843,
+    "h": 1080,
+    "bytes": 1318712
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_489djc489djc489d-300x300.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_489djc489djc489d-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 148689
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_489djc489djc489d.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_489djc489djc489d.png",
+    "w": 806,
+    "h": 1080,
+    "bytes": 1221735
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_lbayzhlbayzhlbay-300x300.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_lbayzhlbayzhlbay-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 160635
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_lbayzhlbayzhlbay.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_lbayzhlbayzhlbay.png",
+    "w": 843,
+    "h": 1080,
+    "bytes": 1208851
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_pswc3ipswc3ipswc-300x300.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_pswc3ipswc3ipswc-300x300.png",
+    "w": 300,
+    "h": 300,
+    "bytes": 157209
+   },
+   {
+    "src": "https://agwoolnz.com/wp-content/uploads/2024/07/Gemini_Generated_Image_pswc3ipswc3ipswc.png",
+    "file": "media/agwool/2024_07_Gemini_Generated_Image_pswc3ipswc3ipswc.png",
+    "w": 810,
+    "h": 1080,
+    "bytes": 1252332
+   }
+  ]
+ }
+}
